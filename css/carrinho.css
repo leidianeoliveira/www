@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.conteudo h4 {
+	font-size:8pt;
+	width:500px;
+	text-align:center;
+	margin:0 auto 45px auto}
+	
+	.conteudo p{text-align:center}
+	
+table.ambientes  {
+	width:100%;
+	border:none;
+	margin:100px auto;
+	border-collapse:collapse}
+	
+
+
+.ambientes th{
+	font-family: 'Krona One', sans-serif;
+	text-align:left;
+	padding:0 0 10px 0;
+	border:none;}
+	
+	.ambientes th:last-child{ text-align:right; padding-right:100px}
+	
+	.ambientes tr {border-bottom:1px solid #3a3a3a; }
+	.ambientes tr:first-child {border-bottom:1px none #3a3a3a!important }
+	.ambientes tr:last-child {border-bottom:1px none #3a3a3a!important }
+	
+	.ambientes td {
+	padding:20px 10px;
+	border:none;}
+	
+	.ambientes td:first-child{ width:10%!important; text-align:right}
+	.ambientes td{width:40%;}
+	.ambientes th:last-child{	border-left:1px solid #3a3a3a;}
+	.ambientes td:last-child{
+			border-left:1px solid #3a3a3a;
+			padding-right:100px;
+			text-align:right}
+			
+.somatorios p{
+	font-family: 'Krona One', sans-serif;
+	font-size:10pt;
+	text-transform:uppercase;
+	margin-bottom:10px}
+	
+.somatorios p.cupom{
+	font-family:FuturaStd-Medium, sans-serif;
+	text-transform:none;
+	margin:40px 0}
+	
+	.somatorios p.cupom input{ width:350px; margin:0 30px}
+	
+.somatorios p.total {
+	font-size:16pt;}
+	
+.btContinuar {
+	padding:30px 70px;
+	font-size:15pt;
+	position:relative;
+	top:30px;
+	left:220px}

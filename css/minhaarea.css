@@ -49,6 +49,8 @@
 		padding:10px 0;
 		border:none;
 		border-bottom:1px solid #FFF}
+	
+	.tabelas .status tr:last-child td{ border-bottom:1px none #FFF }
 		
 		.tabelas .status td:first-child{
 			width:70%;

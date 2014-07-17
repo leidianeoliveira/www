@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* Formataces comuns a duas páginas ou mais do site */
+
+@font-face {
+	font-family: 'FuturaStd-Medium';
+	src: url('../fonts/FuturaStd-Medium.eot');
+	src: local('☺'), url('../fonts/FuturaStd-Medium.woff') format('woff'), url('../fonts/FuturaStd-Medium.ttf') format('truetype'), url('../fonts/FuturaStd-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;}
+
+*{margin:0; 
+padding:0}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:FuturaStd-Medium, sans-serif;
+	font-size:10pt;
+	color:#292929;
+	background-color:#f4f4f4}
+
+html{ margin:0; padding:0}
+
+h1, h2, h3, h4, h5, h6{
+	text-transform:uppercase;
+	font-family: 'Krona One', sans-serif;}
+
+/*====== cabecalho ====*/
+header{
+	padding:0;
+	margin:0;
+	background-color:#3a3a3a}
+
+header h1{
+	background:#292929 url(../images/fdTitulo.gif) repeat-x center;
+	text-align:center;
+	margin:0}
+	
+header nav {
+	/*width:65%;*/
+	width:900px;
+	padding-left:80px;
+	margin:auto;
+	text-align:right;
+	background:url(../images/icoLista.png) no-repeat center;
+	height:80px;}
+	
+.btAmbiente{
+	border:1px solid #a3a3a3;
+	background:none;
+	padding:10px; 
+	margin:0;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top:25px;
+	cursor:pointer;} 
+	
+.btLogin{
+	border:1px solid #a3a3a3;
+	background:none;
+	padding:10px;
+	margin:0;
+	color:#fff;
+	text-transform:uppercase;
+	cursor:pointer;
+	margin-top:25px;}
+	
+/*====== Conteudo ====*/
+.conteudo {
+	background: url(../images/fdConteudo.png) repeat-y 0 100px;
+	/*width:65%;*/
+	width:900px;
+	margin:80px auto 0 auto;
+	padding:0 0 80px 80px;
+	 }
+	
+.conteudo section{
+	padding:0 80px 0 80px;
+	margin:auto;
+	background-color:#e6e6e6;}
+	
+	.conteudo h3{
+	font-size:18pt;
+	color:#666666;
+	letter-spacing:1px;
+	text-align:center;
+	padding:65px 0;
+	clear:both}
+	
+/*====== Elementos ====*/
+/*botao de destaque com bordas arredondas*/
+.btDest{ 
+	background-color:#ffb422;
+	text-transform:uppercase;
+	font-family: 'Krona One', sans-serif;
+	letter-spacing:2px;
+	color:#292929;
+	text-decoration:none;
+	text-align:center;
+	border:none;
+	border-radius:15px;
+	border-bottom:5px solid #cf9802;
+	clear:both;}	
+
+/*Botao simples sem bordas*/	
+.btSimples{
+	background-color:#ffb422;
+	padding:12px 30px;
+	font-family:FuturaStd-Medium, sans-serif;
+	text-transform:uppercase;
+	color:#292929;
+	border:none;
+	text-decoration:none;
+	}
+		
+/*itens do formulario*/
+.formulario label{
+	display:block;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	font-family: 'Krona One', sans-serif;}
+	
+	.formulario label span{ padding:0 20px 0 0}
+	
+.formulario input[type="text"], .formulario select, .formulario textarea {
+	font-family:FuturaStd-Medium, sans-serif;
+	font-size:9pt;
+	padding:8px 4px;
+	background-color:transparent;
+	border:1px solid #6d6d6d;
+	border-radius:2px}
+
+/*====== Rodape ====*/
+footer{
+	background-color:#292929;
+	color:#fff;
+	margin:0}
+	
+	footer .contRodape{
+	/*width:65%;*/
+	width:900px;
+	margin:auto;
+	background:url(../images/fdFooter.png) no-repeat 0 top;
+	padding-left:80px;}
+	
+	footer nav{
+	margin:auto;
+	padding:60px 0 60px 0;
+	text-align:center;}
+		
+	footer a{
+	text-decoration:none;
+	color:#fff}
+	footer a:hover{ text-decoration:underline}
+	
+	/*footer nav ul{border:1px solid red}*/
+	footer nav li{ 
+		display:inline;
+		list-style:none;
+		font-family: 'Krona One', sans-serif;
+		font-size:10pt;
+		text-transform:uppercase;
+		padding:0 15px;} 
+		
+	
+			
+	footer .termosUso{
+		display:block;
+		clear:both;
+		text-align:center;
+		width:780px;
+		margin:auto;
+		padding:18px 0;
+		border-top:1px solid #fff;
+		border-bottom:1px solid #fff;
+		text-decoration:underline;
+		font-size:10pt}
+		
+	.duvidas { 
+		margin:40px auto;
+		text-align:center;
+		padding-bottom:60px}
+		
+		.duvidas h5{ font-size:12pt; margin-bottom:25px}
+		
+		.duvidas li {
+			display:inline;
+			border-right:1px solid #fff;
+			padding:0 15px}
+	

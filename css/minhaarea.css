@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.conteudo section{ padding:0 175px}
+	
+.botoes {
+	height:150px; 
+	clear:both;}
+
+.botoes a{ 
+	display:block;
+	width:145px;
+	height:145px;
+	text-indent:-5000px;
+	overflow:hidden;
+	float:left}
+
+	.btMeusProjetos{ background:url(../images/btMeusProjetos.png) no-repeat}
+	.btNovoAmb{ background:url(../images/btNovoAmb.png) no-repeat; margin:0 50px}
+	.btEditCadastro{ background:url(../images/btEditCadastro.png) no-repeat}
+	
+	.conteudo p{ text-align:center; padding-bottom:50px}
+	
+.tabelas{}
+	
+.tabelas .status {
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:8pt;
+	width:100%;
+	background-color:#37b3bd;
+	padding:20px 50px!important;
+	border:none;
+	margin-bottom:30px
+	
+	}
+	
+.tabelas .status th{
+	font-family: 'Krona One', sans-serif;
+	text-align:left;
+	padding:0 0 10px 0;
+	border:none;
+	}
+	.tabelas .status th:first-child{border-right:1px solid #FFF;}
+	.tabelas .status th:last-child{ padding:10px 10px 10px 40px}
+	
+	.tabelas .status tr{}
+	.tabelas .status td{
+		padding:10px 0;
+		border:none;
+		border-bottom:1px solid #FFF}
+		
+		.tabelas .status td:first-child{
+			width:70%;
+			border-right:1px solid #FFF;}
+			
+		.tabelas .status td:last-child{ padding:10px 10px 10px 60px}
+		
+.legenda{
+	background-color:#ffb422;
+	padding:15px 30px;
+	height:100px;
+	margin-bottom:30px}
+	
+	.legenda dt{
+		float:left;
+		width:40px;
+		height:26px; margin-bottom:10px}
+		
+	.legenda dd {
+		float:left;
+		min-width:186px;
+		height:16px;
+		padding:5px 0;
+		margin-bottom:10px}
+		
+.observacao{ font-size:7pt}

@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Formatacoes da pagina inicial */
+
+
+.conteudo h3{
+	font-size:14pt!important;}
+	
+
+/*====== Apresentacao ======*/
+.topo {
+	background:url(../images/fdTopo.jpg) repeat-x center top;
+	padding-top:520px}
+
+.topo ul{
+	width:920px; 
+	margin:auto;
+	list-style:none;
+	padding-left:80px}
+	
+	.topo li{text-align:center}
+	.topo h2{ padding-top:120px}
+	.topo p{ padding: 40px 85px;
+			line-height:18pt}
+	
+	.topo .oque{
+		height:421px;
+		width:460px;
+		padding:0 0 0 460px;
+		background:url(../images/fdOque.jpg) no-repeat left #ffb422;}
+	
+	.topo .comofunciona{
+		height:421px;
+		width:460px;
+		padding:0 460px 0 0;
+		background:url(../images/fdComoFunciona.jpg) no-repeat right #37b3bd;}
+	
+/*====== Depoimentos======*/
+.depoimentos p{
+	background:#37b3bd url(../images/fdDepoimento.png) no-repeat 80px 22px;
+	padding:30px 50px 30px 125px;
+	min-height:150px;
+	color:#FFF;
+	border:1px solid #959595;
+	font-size:9pt;
+	line-height:14pt}
+	
+	.depoimentos img{
+		float:right;
+		margin-left:20px}
+	
+	.depoimentos strong{ color:#292929}
+	
+	.depoimentos .btOutros{
+		padding:10px;
+		width:120px;
+		text-align:center;
+		font-size:8pt;
+		float:right;
+		position:relative;
+		margin:-15px 50px 0 0}
+		
+/*====== O que fazer ===*/
+.oQueFazer ul{
+	height:680px;
+	width:640px;
+	margin:auto;}
+	
+.oQueFazer li {
+	border:1px solid #60bfc7;
+	display:block;
+	float:left;
+	padding:35px 10px;
+	width:290px;
+	height:260px;
+	text-align:center;
+	margin:1px}
+	
+	.oQueFazer li strong{
+		font-family: 'Krona One', sans-serif;
+		display:block;
+		text-align:center;
+		font-size:30pt;
+		margin-bottom:180px}
+		
+	.oQueFazer .passo1{background:url(../images/icoPasso1.png) no-repeat 60px 60px}
+	
+	.oQueFazer .passo2{background:url(../images/icoPasso2.png) no-repeat 60px 60px}
+	
+	.oQueFazer .passo3{background:url(../images/icoPasso3.png) no-repeat 60px 60px}
+	
+	.oQueFazer .passo4{background:url(../images/icoPasso4.png) no-repeat 60px 60px;
+	}
+	
+/*====== Precos ===*/
+.precos{height:400px;}
+
+.precoResidencial {
+	width:146px;
+	height:146px;
+	margin-right:10px; 
+	float:left;
+	background:url(../images/icoPrecoResidencial.png) no-repeat;
+	text-indent:-5000px;
+	overflow:hidden}
+	
+	.precoComercial {
+	width:146px;
+	height:146px;
+	float:left;
+	background:url(../images/icoPrecoComercial.png) no-repeat;
+	text-indent:-5000px;
+	overflow:hidden}
+	
+	.precoAmbiente{
+		font-size:10pt;
+		color:#37b3bd;
+		width:80px;
+		height:80px;
+		padding:40px 60px;
+		float:left;
+		text-align:center;
+		text-transform:uppercase;}
+		
+		.precos ul {
+			list-style:none;
+			float:left;
+			padding:20px 0}
+			
+.btComecarAmbiente{
+	font-size:20pt;
+	padding:20px 30px!important;
+	border-radius:20px;
+	position:relative;
+	left:250px;
+	top:-20px}

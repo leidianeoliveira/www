@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.conteudo section{
+	padding:0 140px!important}
+	
+.botoes {
+	height:160px; 
+	clear:both;
+	display:block;}
+
+.botoes a{ 
+	display:block;
+	width:158px;
+	height:158px;
+	text-indent:-5000px;
+	overflow:hidden;
+	float:left;}
+	
+	.btBoleto{ background:url(../images/btBoleto.png) no-repeat}
+	.btCartao{ background:url(../images/btCartao.png) no-repeat; margin:0 70px!important}
+	.btTransfer{ background:url(../images/btTransfer.png) no-repeat}
+	
+.formulario {
+	background:url(../images/fdMoip.png) no-repeat 150px 690px;
+	padding:0;
+	display: table;}
+	
+.formulario h4 {
+	padding:60px 0;
+	text-align:center;
+	font-size:10pt}
+	
+	.formulario label {	font-size:8pt;}
+	.formulario span{}
+	.formulario input{}
+	
+	.frmEmail input{ width: 530px}
+	.frmEmail2 input{ width:395px}
+	.frmNome input{ width:448px}
+	.frmDtNasc input{ width:416px}
+	.frmCpf {float:left; padding-right:20px}
+	.frmCpf input{ width:240px}
+	.frmCep input{ width:232px}
+	.frmRua input{ width:550px}
+	.frmNum {float:left; padding-right:20px}
+	.frmNum input{ width:136px}
+	.frmComp input{ width:220px}
+	.frmTel input{ width:505px}
+	.frmBairro{float:left;padding-right:10px}
+	.frmBairro input{ width:150px}
+	.frmCidade{float:left;padding-right:10px}
+	.frmCidade input{ width:130px}
+	.frmEstado{float:left;padding-right:10px}
+	.frmEstado input{ width:50px}
+	.frmValor input{ width:440px;}
+	
+.btConcluir {
+	font-size:12pt;
+	padding:20px 50px;
+	float:right;
+	margin:40px 10px 200px 0}

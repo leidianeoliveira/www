@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.conteudo section{
+	padding:120px 0;
+	background: #e6e6e6 url(../images/fdErro.png) no-repeat center 250px;
+	height:580px}
+
+.conteudo section p{
+	text-align:center;
+	text-transform:uppercase;
+	font-size:9pt;
+	line-height:20pt;
+	letter-spacing:1px}

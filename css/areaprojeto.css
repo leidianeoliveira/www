@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* Detalhes do projeto*/
+
+.conteudo section{
+	padding:0}
+	
+.projeto p{
+	width:70%;
+	margin:auto;
+	text-align:center}
+	
+	.botoes {
+	height:150px; 
+	clear:both;}
+
+.botoes a{ 
+	display:block;
+	width:157px;
+	height:157px;
+	text-indent:-5000px;
+	overflow:hidden;
+	float:left;
+	margin:30px 0}
+	
+	.btPerspectiva{ background:url(../images/btPerspectiva.png) no-repeat}
+	.btPlanta{ background:url(../images/BtPlanta.png) no-repeat; margin:30px 75px!important}
+	.btDownScript{ background:url(../images/btDownScript.png) no-repeat}
+	
+	
+.imgProjeto{
+	padding:10px;
+	border:1px solid #919191;
+	max-width:878px}
+
+.btDownload{
+	display:block;
+	font-size:9pt;
+	padding:20px 0;
+	width:190px;
+	clear:both;
+	position:relative;
+	margin:-40px auto 0 auto}
+	
+.formulario {
+	padding:0 145px 50px 145px!important;	}
+	
+	.formulario h4 {
+	padding:60px 0;
+	text-align:center;
+	font-size:10pt}
+
+	.formulario label {	font-size:8pt}
+	
+	.frmNome input{ width: 500px}
+	
+	.frmAssunto select{
+		width:480px;
+		height:30px;		}
+		
+	.frmAnexo input[type="text"]{ width:330px}
+	
+	.frmMsg textarea{
+		width:455px;
+		height:120px;
+		vertical-align:top}
+	
+	.formulario label input.btUpAnexo{
+		padding:8px 20px;
+		border:1px solid #ffb422 ;}
+		
+	.formulario input.btEnviar{
+		float:right;
+		margin-right:35px;}
+		

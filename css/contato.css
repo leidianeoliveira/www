@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* Detalhes do projeto*/
+
+.conteudo section{
+	padding:0}
+	
+.formulario {
+	padding:0 145px 100px 145px!important;}
+	
+	.formulario h4 {
+	padding:60px 0;
+	text-align:center;
+	font-size:10pt}
+
+	.formulario label {font-size:8pt}
+		
+	.frmNome input{ width: 500px}
+	.frmEmail input {width:500px}
+	.frmAssunto input{width:470px;}
+	
+	.frmMsg textarea{
+		width:455px;
+		height:120px;
+		vertical-align:top}
+	
+	.formulario input.btEnviar{
+		padding:12px 30px;
+		border:none;
+		float:right;
+		margin-right:35px;}
+		
